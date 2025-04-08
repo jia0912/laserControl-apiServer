@@ -19,7 +19,7 @@ A lightweight Flask-based web server for sending control commands to an Arduino 
 ### 🔧 System Overview
 ![Laser projection system](images/projectionSystem.jpg)
 
-### 🔍 Device Close-up
+### 🔍 A, B, C tools
 ![A, B, C tools(3 positions)](images/tools.jpg)
 
 ---
