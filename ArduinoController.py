@@ -123,8 +123,9 @@ if __name__ == '__main__':
             print("laserError：", e)
     arduino.close()
 
-    # --for MOST--
-    # 結束時傳個0關雷射
+    # --for MOST-- **結束時傳個0關雷射及手動關雷射電源**
+    # Linux USB Permissions > sudo usermod -a -G dialout $USER
+    
     # from ArduinoController import ArduinoController
 
     # with ArduinoController() as laser:
