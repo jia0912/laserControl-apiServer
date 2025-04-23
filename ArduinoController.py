@@ -71,7 +71,7 @@ class ArduinoController:
         except Exception as e:
             print(f"Failed to connect to Arduino: {e}")
 
-    def send_command(self, command: int, wait_for='N', timeout=5):
+    def send_command(self, command: int, wait_for="N", timeout=5):
         self.config = load_config()
         commands = self.config.get("commands", {})
 
